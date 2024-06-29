@@ -22,7 +22,6 @@
 # will be stored in that volume by default.
 #
 # See README.md in this directory for usage instructions.
-version: "3"
 services:
   hms:
     image: ${IMPALA_QUICKSTART_IMAGE_PREFIX:-}impala_quickstart_hms
