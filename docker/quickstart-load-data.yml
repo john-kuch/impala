@@ -17,7 +17,6 @@
 
 # This launches a container that will load data into the Impala cluster that is defined
 # in quickstart.yml.
-version: "3"
 services:
   data-loader:
     image: ${IMPALA_QUICKSTART_IMAGE_PREFIX:-}impala_quickstart_client
