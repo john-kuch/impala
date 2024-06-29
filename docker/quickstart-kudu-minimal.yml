@@ -19,7 +19,6 @@
 # The Kudu repository contains a docker compose file (docker/quickstart.yml) for a more
 # production-like Kudu cluster with multiple masters, etc. This file is derived from that
 # file.
-version: "3"
 services:
   kudu-master-1:
     image: apache/kudu:${KUDU_QUICKSTART_VERSION:-latest}
